@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Hook Shot</title>
+    link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="hud">
+    <span>SKORE: <b id="sc">0</b></span>
+    <span id="lv">LEVEL 1</span>
+    <span>ZIVOTY: <b id="li">❤ ❤ ❤</b></span>
+</div>
+<canvas id="c" width="800" height="500"></canvas>
+<div id="controls">
+    <span>[A/D] pohyb</span>
+    <span>[W / SPACE] skok</span>
+    <span>[LMB] hak</span>
+    <span>[RMB / R] uvolni hak</span>
+    <span>[ESC] pauza</span>
+</div>
+
+<div id="overlay">
+    <h1>HOOK SHOT</h1>
+    <p>
+        <span>Klikni lavym tlacidlom</span> na platformu — vystrelí sa hák<br>
+        Hák ťa <span>pritiahne</span> k platforme<br>
+        <span>Zbieraj predmety</span> na platformách za body<br>
+        Vyhni sa <span>hrotom</span> na zemi
+    </p>
+    <button onclick="startGame()">HRAT</button>
+
+    <script src="game.js"></script>
+</div>
+</body>
+</html>
